@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@mipmap/fondo">     
+	<ScrollView
+		android:id="@+id/login_form"		
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+            android:id="@+id/line_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:layout_weight="1"	
+            android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center_horizontal"
+				android:paddingTop="20dp"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginBottom="100dp"
+				android:paddingBottom="10dp">
+
+				<ImageView
+					android:id="@+id/imageViewLogo"
+					android:layout_width="250dp"  				
+					android:layout_height="60dp"
+					android:adjustViewBounds="true"
+					android:scaleType = "fitXY"
+					android:contentDescription="@string/app_name"								
+					android:src="@mipmap/logo"/>
+
+			</LinearLayout> 
+			<LinearLayout
+				    android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_marginBottom="10dp"					
+					android:layout_weight="1"					
+					android:paddingTop="20dp"	
+					android:background="@drawable/rectangle">
+
+				<android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:theme="@style/AppThemeTextWhite">
+
+                    <EditText
+                        android:id="@+id/usuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/login_usuario"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:theme="@style/AppThemeTextWhite"
+                        android:textColor="@color/colorSecondary" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:theme="@style/AppThemeTextWhite">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/login_clave"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:theme="@style/AppThemeTextWhite"
+                        android:textColor="@color/colorSecondary"/>
+                </android.support.design.widget.TextInputLayout>
+				
+                <Button
+                    android:id="@+id/sign_in_button"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+					android:layout_marginStart="30dp"
+					android:layout_marginEnd="30dp"
+                    android:text="@string/login_ingresar"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorText"
+                    android:textStyle="bold" />
+		
+			</LinearLayout> 
+		</LinearLayout> 
+    </ScrollView>
+</RelativeLayout>

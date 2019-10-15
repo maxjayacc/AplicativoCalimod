@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+				    android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"				
+					android:layout_weight="1">
+
+		<TextView
+			android:id="@+id/ritem_lblcompania"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_small"
+			android:paddingBottom="2dp"
+			android:paddingLeft="5dp"
+			android:paddingTop="5dp"
+			android:textStyle="normal|bold"
+			android:theme="@style/AppThemeTextWhite"
+			android:text="@string/lectura_compania"/>
+
+		<TextView
+			android:id="@+id/ritem_compania"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_medium"
+			android:paddingBottom="5dp"
+			android:paddingLeft="5dp"		
+			android:textStyle="normal"
+			android:theme="@style/AppThemeTextWhite"/>
+
+		<TextView
+			android:id="@+id/ritem_lblinventario"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_small"		
+			android:paddingBottom="2dp"
+			android:paddingRight="5dp"
+			android:paddingLeft="5dp"
+			android:textStyle="normal|bold"
+			android:theme="@style/AppThemeTextWhite"
+			android:text="@string/lectura_inventario"/>
+
+		<TextView
+			android:id="@+id/ritem_inventario"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_medium"
+			android:paddingBottom="5dp"
+			android:paddingRight="5dp"
+			android:paddingLeft="5dp"
+			android:textStyle="normal"
+			android:theme="@style/AppThemeTextWhite"/>
+
+		<TextView
+			android:id="@+id/ritem_lblalmacen"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_small"		
+			android:paddingBottom="2dp"
+			android:paddingRight="5dp"
+			android:paddingLeft="5dp"
+			android:textStyle="normal|bold"
+			android:theme="@style/AppThemeTextWhite"
+			android:text="@string/lectura_almacen"/>
+
+		<TextView
+			android:id="@+id/ritem_almacen"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_medium"
+			android:paddingBottom="5dp"
+			android:paddingRight="5dp"
+			android:paddingLeft="5dp"
+			android:textStyle="normal"
+			android:theme="@style/AppThemeTextWhite"/>		
+
+		<TextView
+			android:id="@+id/ritem_lblubicacion"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_small"		
+			android:paddingBottom="2dp"
+			android:paddingRight="5dp"
+			android:paddingLeft="5dp"
+			android:textStyle="normal|bold"
+			android:theme="@style/AppThemeTextWhite"
+			android:text="@string/lectura_ubicacion"/>
+
+		<TextView
+			android:id="@+id/ritem_ubicacion"			
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_medium"
+			android:paddingBottom="5dp"
+			android:paddingRight="5dp"
+			android:paddingLeft="5dp"
+			android:textStyle="normal"
+			android:theme="@style/AppThemeTextWhite"/>
+
+	    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewItem"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />	
+
+	</LinearLayout> 
+
+</LinearLayout>

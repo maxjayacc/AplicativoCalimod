@@ -1,0 +1,106 @@
+<resources>
+  <string name="app_name">CM Inventario</string>
+  <string name="app_network">Comprueba tu conexión a internet</string>
+  <string name="app_error">Ocurrió un error, Contacte con el administrador del sistema.</string>
+  <string name="app_titulo_alerta">Validación!</string>
+  <string name="app_permiso_info">Se requiere permiso para acceder a la información del equipo</string>
+  <string name="app_permiso_ok">OK</string>
+  <string name="app_equipo_noregistrado">El equipo no esta asignado a un inventario</string>
+  <string name="app_error_permiso">No se tiene permiso de acceso a la información del equipo</string>
+
+  <string name="alerta_titulo_validacion">ADVERTENCIA!</string>
+  <string name="alerta_boton_aceptar">Aceptar</string>
+
+  <string name="action_settings">Settings</string>
+
+  <string name="login_usuario">Usuario</string>
+  <string name="login_clave">Clave</string>
+  <string name="login_ingresar">Ingresar</string>
+
+  <string name="login_val_usuario">Ingrese un usuario</string>
+  <string name="login_val_clave">Ingrese un clave</string>
+  <string name="login_val_terminal">No se pudo obtener datos de la terminal</string>
+  <string name="login_invalido">Credenciales inválidos</string>
+
+  <string name="tab_inventario">Inventario</string>
+  <string name="tab_ubicacion">Ubicación</string>
+  <string name="tab_item">Item / Kit</string>
+
+  <string name="progress_titulo">Espere un momento</string>
+  <string name="progress_mensaje">Cargando registros</string>  
+  <string name="progress_mensaje_login">Accediendo</string>
+  <string name="progress_mensaje_guardando">Guardando</string>
+  <string name="progress_mensaje_cerrando">Cerrando</string>
+  <string name="progress_mensaje_borrando">Borrando</string>
+  <string name="progress_mensaje_confirmando">Confirmando</string>
+
+  <string name="lectura_compania">Compañia</string>
+  <string name="lectura_inventario">Inventario</string>
+  <string name="lectura_almacen">Almacén</string>
+  <string name="lectura_ubicacion">Ubicación</string>
+  <string name="lectura_item_reconteo">Item</string>
+  <string name="lectura_item_desreconteo">Descripción</string>
+  <string name="lectura_item">Código + Lote</string>
+  
+  <string name="lectura_kit">Código Kit</string>
+  <string name="lectura_kit_reconteo">Item</string>
+  <string name="lectura_kit_desreconteo">Descripción</string>
+  <string name="lectura_kit_item">Código Item</string>
+  
+  <string name="lectura_cantidad">Cantidad</string>
+  <string name="lectura_guardar">Guardar</string>
+  <string name="lectura_salir">Salir</string>
+  <string name="lectura_cerrar">Cerrar Kit</string>
+  <string name="lectura_total_kit">Total Kit:</string>
+  <string name="lectura_total_item">Total Item:</string>
+  
+  <string name="lectura_correcto">Lectura guardada correctamente</string>
+  <string name="lectura_incorrecto">Error al guardar</string>
+  <string name="lectura_borrar_correcto">Última lectura borrada correctamente</string>  
+  <string name="lectura_borrar_incorrecto">Error al borrar última lectura</string>
+  <string name="lectura_kit_cerrar_correcto">Kit cerrada correctamente</string>
+  <string name="lectura_kit_cerrar_incorrecto">Error al cerrar kit</string>  
+  <string name="lectura_confirmar_correcto">Ubicación correcta</string>
+  <string name="lectura_confirmar_incorrecto">Ubicación incorrecta</string>
+  
+  <string name="lectura_advertencia_manual">Los datos de la lectura será manual</string>
+  <string name="lectura_advertencia_cantidad">Cantidad incorrecta</string>
+  <string name="lectura_advertencia_item">Item vacio</string>
+  <string name="lectura_advertencia_kit">Kit vacio</string>
+  <string name="lectura_advertencia_ubicacion">Ubicación vacio</string>
+  <string name="lectura_advertencia_items">Lectura de items vacio</string>
+  <string name="lectura_advertencia_conf_ubi">Ubicación invalida</string>
+  <string name="lectura_advertencia_conf_ubi_dif">Ubicación no coincide</string>
+  <string name="lectura_advertencia_item_reconteo">Item no valido</string>  
+  <string name="lectura_advertencia_item_ubicacion">Item no puede ser ubicación</string>
+  <string name="lectura_advertencia_kit_ubicacion">Kit no puede ser ubicación</string>
+  <string name="lectura_advertencia_kit_item">Item no puede ser kit</string>
+  <string name="lectura_advertencia_kit_reconteo">Kit no valido</string>
+  <string name="lectura_advertencia_Cerrar_ubi_Si">Cerrar Ubicación?</string>
+  
+  <string name="lectura_error_mensaje">No reconoce código</string>
+
+  <string name="ubicacion_cerrar_correcto">Ubicación cerrada correctamente</string>  
+  <string name="ubicacion_cerrar_incorrecto">Error al cerrar ubicación</string>
+  <string name="ubicacion_cerrar_middle_correcto">Ubicación cerrada en central correctamente</string>
+  <string name="ubicacion_cerrar_middle_incorrecto">Error al cerrar ubicación en central</string>
+  
+  <string name="itemreconteo_cerrar_correcto">Item cerrado correctamente</string>
+  <string name="itemreconteo_cerrar_incorrecto">Item cerrado correctamente</string>
+
+  <string name="equipo_usuario">Usuario</string>
+  <string name="equipo_modelo">Modelo</string>
+  <string name="equipo_fabricante">Fabricante</string>
+  <string name="equipo_nombre">Nombre</string>  
+  <string name="equipo_producto">Producto</string>
+  <string name="equipo_serie">Serie</string>
+  <string name="equipo_marca">Marca</string>
+  <string name="equipo_numero">Número</string>
+  <string name="equipo_boton_ok">OK</string>
+
+  <string name="menu_equipo">Info</string>
+  <string name="menu_salir">Salir</string>
+  
+  
+
+</resources>

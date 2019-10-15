@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<config>
+    <url>http://200.60.128.162:2484/</url>
+    <path>CmSoft_Inventarios/PublicarWS/Service1.svc/rest/</path>
+</config>

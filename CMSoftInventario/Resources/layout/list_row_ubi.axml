@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+	android:background="@drawable/selector"
+    android:id="@+id/li_ds_item">
+
+
+    <ImageView		
+        android:layout_width="5dp"
+        android:layout_height="match_parent"        		
+        app:srcCompat="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="2dp">
+
+        <TextView
+            android:id="@+id/row_ubi_nombre"			
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:textSize="@dimen/font_size_medium"
+			android:theme="@style/AppThemeTextWhite"
+			android:textColor="@color/colorSecondary"
+            android:textStyle="normal|bold" />
+        
+        <TextView
+            android:id="@+id/row_ubi_estado"
+			android:textSize="@dimen/font_size_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="32dp"
+		android:id="@+id/row_ubi_cerrar"
+		android:paddingRight ="7dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="clip_vertical|clip_horizontal"
+		android:src="@mipmap/baseline_https_black_18dp"/>
+
+</LinearLayout>
