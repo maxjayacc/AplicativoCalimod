@@ -165,7 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>12.0.3-beta1</Version>
+      <Version>13.0.1</Version>
     </PackageReference>
     <PackageReference Include="Symbol.XamarinEMDK">
       <Version>5.0.0.12</Version>
